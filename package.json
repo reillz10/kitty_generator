@@ -2,7 +2,7 @@
   "name": "kitty_generator",
   "version": "1.0.0",
   "description": "Starter app from the ground up",
-  "repository": "https://github.com/edx/kitty_generator",
+  "repository": "https://github.com/reillz10/kitty_generator",
   "scripts": {
     "build": "NODE_ENV=production BABEL_ENV=production webpack --config=config/webpack.prod.config.js",
     "deploy:gh-pages": "npm run build && gh-pages -d dist",

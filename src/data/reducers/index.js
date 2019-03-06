@@ -3,6 +3,7 @@ import { connectRouter } from 'connected-react-router';
 
 import posts from './posts';
 import comment from './comment';
+import kitty from './kitty';
 
 const identityReducer = (state) => {
   const newState = { ...state };
@@ -16,4 +17,5 @@ export default history => combineReducers({
   authentication: identityReducer,
   posts,
   comment,
+  kitty,
 });
